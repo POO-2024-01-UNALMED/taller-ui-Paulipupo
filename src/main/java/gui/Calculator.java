@@ -123,6 +123,10 @@ public class Calculator extends VBox implements EventHandler<ActionEvent>{
 		
 		this.getChildren().addAll(sp, gd);
 	}
+	
+	public String toString() {
+		return "Soy calculadora";
+	}
 
 	@Override
 	public void handle(ActionEvent event) {
